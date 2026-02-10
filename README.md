@@ -1,8 +1,10 @@
 #Online Retail Analytics_ End-to-end project
+
 This project analyses messy online data and transforms it into business insights that include geographic trends, revenue trends, customer behaviour, 
 and sales performance. 
 
 # Workflow
+
 -Data cleaning and transformation using Python.
 -Feature engineering for business metrics. 
 -Interactive dashboard development in Excel 
