@@ -1,21 +1,32 @@
-# Retail-Data-No-Cheat-Sheet
-A practical data-cleaning case study focused on uncovering and validating data issues in raw retail transactions in preparation for analysis and modelling. 
+#Online Retail Analytics_ End-to-end project
+This project analyses messy online data and transforms it into business insights that include geographic trends, revenue trends, customer behaviour, 
+and sales performance. 
 
-#Project Overview
-This project focuses on cleaning and validating raw retail data to ensure that it is accurate for revenue and customer analysis. 
-The data contains issues that require investigation instead of predefined cleaning rules. 
+# Workflow
+-Data cleaning and transformation using Python.
+-Feature engineering for business metrics. 
+-Interactive dashboard development in Excel 
 
-#Objective
-To prepare an analysis ready dataset by identifying, validating, and resolving data inconsistencies that would lead distort business insights. 
+Dataset: Online Retail Data (Kaggle)
+Records: 500,000+ transactions
 
-#Dataset
-Source: Kaggle-Online Retail Dataset.
-Type: Transaction-level retail data. 
-Size: 540,000 rows(raw)
+#Business Objectives
+-To identify key revenue patterns that will contribute to the following business insights:
+Seasonal planning
+Customer analysis
+Revenue trends
+
+#Tools and Technologies
+Python (Pandas, Numpy, Scikit Learn, Matplotlib)
+Jupyter Notebooks
+Excel( Pivot Tables, charts, slicers)
+Github
+
+#Data Cleaning and Preparation(Python)
 
 #Data Quality Issues Identified
 The exploratory analysis revealed the following issues:
--Missing customer identifies. 
+-Missing customer identities. 
 -Negative quantities associated with cancellations. 
 -Zero or negative unit prices. 
 -Inconsistent data types and text formatting issues. 
@@ -31,21 +42,30 @@ Key steps included:
 
 All the assumptions were validated using thorough exploratory checks and documentation. 
 
-#Outcomes 
-The cleaned dataset contained the following:
--Completed retail transactions. 
--Reliable revenue metrics. 
--Information for time-based analysis. 
--A foundation for EDA and modelling. 
+#Dashboard Features(Excwl)
+Total Revenue
+Total customers
+Geographic revenue concentration
+Monthly revenue sales trends 
+Interactive filters(year, months)
 
-#Repository structure
--Notebook...data cleaning.
--Data
+#Key Insights 
+Sales peak from September all the way to December. 
+A small number of countries contribute the largest part of the revenue. 
+The United Kingdom is the organisation's biggest revenue contributor. 
 
-#Next Steps
--Exploratory Data Analysis (EDA)
--Customer Segmentation.
--Revenue and sales trend analysis
+#Repository content
+Data
+Notebooks
+Excel dashboard images. 
+
+#Dashboard preview. 
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/6849d9cd-6512-490b-8a95-47d63afac853" />
+
+#Project Workflow
+Raw data-Python cleaning- Feature engineering-Excel dashboard-Key Insights 
+
+
 
 
 
