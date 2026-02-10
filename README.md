@@ -1,71 +1,31 @@
-#Online Retail Analytics_ End-to-end project
+#Project Overview
 
-This project analyses messy online data and transforms it into business insights that include geographic trends, revenue trends, customer behaviour, 
-and sales performance. 
+This project solves the challenge of dealing with large scale data since it contains over 500k retail transactions.While Excel is an excellent tool for 
+data visualisation, it struggles with raw and unoptimized datasets. I bridged this gap by using Python for programmatic data cleaning and engineering and 
+Excel for high-level executive reporting. 
 
-# Workflow
+#Technical workflow
 
--Data cleaning and transformation using Python.
--Feature engineering for business metrics. 
--Interactive dashboard development in Excel 
+**Programmatic data cleaning and engineering**
+Using Jupyter Notebooks I performed the heavy lifting that ensures data integrity. 
 
-Dataset: Online Retail Data (Kaggle)
-Records: 500,000+ transactions
+1. Merging- I merged different tables using pandas to get a comprehensive dataset.
+2. Feature Engineering- I derived time-based features (Year, Month, day, and hour) to capture seasonality.
+3. Optimization- I cleaned null values, dropped certain rows, and optimized data types to ensure that the end dataset
+   could be visualised in excel.
 
-#Business Objectives
--To identify key revenue patterns that will contribute to the following business insights:
-Seasonal planning
-Customer analysis
-Revenue trends
+**Business Intelligence Layer**
+The engineered data was imported to excel to build a decision support tool.
+1. Interactive slicers to allow stakeholders to filter revenue by month and year.
+2. KPI tracking: visualized total revenue, total number of customers, and customers by country.
+3. Dynamic charting- Used pivot charts to show the sales trend over time.
 
-#Tools and Technologies
-Python (Pandas, Numpy, Scikit Learn, Matplotlib)
-Jupyter Notebooks
-Excel( Pivot Tables, charts, slicers)
-Github
+#Key Findings
+1. The company should capitalize on the fourth quarter of the year since sales peak from September to December.
+2. A small number of countries contribute the most revenue with the the UK in the lead.
 
-#Data Cleaning and Preparation(Python)
-
-#Data Quality Issues Identified
-The exploratory analysis revealed the following issues:
--Missing customer identities. 
--Negative quantities associated with cancellations. 
--Zero or negative unit prices. 
--Inconsistent data types and text formatting issues. 
-
-#Cleaning Approach
-Cleaning decisions were based on the observed data patterns and retail logic. 
-Key steps included:
--Excluding recordings that had missing customer identifiers. 
--Identifying and removing cancellation transactions. 
--Filtering invalid quantities and prices. 
--Normalizing data and text fields. 
--Creating derived fields to support downstream analysis.
-
-All the assumptions were validated using thorough exploratory checks and documentation. 
-
-#Dashboard Features(Excwl)
-Total Revenue
-Total customers
-Geographic revenue concentration
-Monthly revenue sales trends 
-Interactive filters(year, months)
-
-#Key Insights 
-Sales peak from September all the way to December. 
-A small number of countries contribute the largest part of the revenue. 
-The United Kingdom is the organisation's biggest revenue contributor. 
-
-#Repository content
-Data
-Notebooks
-Excel dashboard images. 
-
-#Dashboard preview. 
-<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/6849d9cd-6512-490b-8a95-47d63afac853" />
-
-#Project Workflow
-Raw data-Python cleaning- Feature engineering-Excel dashboard-Key Insights 
+# Dashboard Preview
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/3e12a101-bab7-49b1-beb1-6783a73e4ba3" />
 
 
 
